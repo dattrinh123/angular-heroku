@@ -2,12 +2,18 @@
   "name": "covid19",
   "version": "0.0.0",
   "scripts": {
+    "heroku-postbuild": "ng build --prod",
     "ng": "ng",
-    "start": "ng serve",
+    "start": "node server",
+    "install": "npm-git install",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
+  },
+  "engines": {
+    "node": "12.4.0",
+    "npm": "6.9.0"
   },
   "private": true,
   "dependencies": {
@@ -22,12 +28,14 @@
     "@popperjs/core": "^2.4.4",
     "bootstrap": "^4.5.2",
     "chart.js": "^2.9.3",
+    "express": "^4.17.1",
     "font-awesome": "^4.7.0",
     "jquery": "^3.4.1",
     "ng2-charts": "^2.4.1",
     "rxjs": "~6.5.5",
     "tslib": "^2.0.0",
-    "zone.js": "~0.10.3"
+    "zone.js": "~0.10.3",
+    "typescript": "~3.9.5"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "~0.1000.5",
@@ -49,4 +57,5 @@
     "tslint": "~6.1.0",
     "typescript": "~3.9.5"
   }
+  
 }
