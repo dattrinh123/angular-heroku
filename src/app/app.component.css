@@ -1,0 +1,127 @@
+
+.navbar-brand {
+    color: #e12424;
+    font-size: 60px;
+    font-weight: 800;
+    font-family: cursive;
+}
+
+.navbar{
+    transition:0.4s;
+}
+
+a.nav-link {
+    color: white ;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: cursive;
+}
+
+i.nav-item {
+    padding: 10px;
+}
+
+
+button.navbar-toggler.d-lg-none.collapsed {
+    background: white;
+}
+
+button.navbar-toggler.d-lg-none.collapsed:hover {
+    background-color: aliceblue;
+}
+.navbar-toggler {
+    background: transparent;
+    border:2px solid black
+}
+
+.navbar-white {
+    color:white!important;
+}
+
+.jumbotron.jumbotron-fluid {
+    background-color: none;
+    background: url('https://images.unsplash.com/photo-1495567720989-cebdbdd97913?ixlib=rb-1.2.1&w=1000&q=80') center center no-repeat;
+    background-size: cover;
+    height: 900px;
+    color: white;
+    padding-top: 30%;
+    display: flex;
+}
+
+.lead{
+    font-weight: 700;
+}
+
+img.card-img-top {
+    height: 300px;
+}
+
+.card-title {
+    margin-bottom: 0.75rem;
+    font-size: 36px;
+    font-weight: 700;
+    font-family: cursive;
+}
+
+p.card-text {
+    font-size: 20px;
+    font-weight: 500;
+    font-family: cursive;
+}
+
+.statictist h2 {
+    text-align: center;
+    font-size: 50px;
+    font-family: cursive;
+    color: brown;
+}
+
+.card.infected {
+    border-bottom: 30px solid #f37d7d;
+}
+
+.card-deck {
+    margin:20px 0;
+}
+
+.card.recovered {
+    border-bottom: 30px solid #7777e7;
+}
+
+.card.death{
+    border-bottom: 30px solid #474242;
+}
+
+section.footer {
+    margin: 29px;
+    background: grey;
+    height: auto;
+}
+
+.footer .col-md-6 {
+    margin-top: 100px;
+}
+
+.footer .col-md-6 h1 {
+    font-size: 30px;
+    color:white;
+    font-weight: 600;
+    font-family: cursive;
+}
+
+@media(max-width:760px){
+    div#navbarToggleExternalContent {
+        background: #ffecec91;
+        text-align: right;
+    }
+    a.nav-link{
+        color: #000000;}
+    
+}
+
+.navbarChangeColor{
+    background-color: black!important;
+}
+.boderChangeColor{
+    border:1px solid white;
+}
