@@ -5,7 +5,6 @@
     "heroku-postbuild": "ng build --prod",
     "ng": "ng",
     "start": "node server",
-    "install": "npm-git install",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
